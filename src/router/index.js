@@ -6,12 +6,12 @@ Vue.use(VueRouter)
 const routes = [{
     path: '/',
     name: 'Home',
-    component: () => import('../pages/Home.vue') //路由懒加载
+    component: () => import('../pages/Home/Home.vue') //路由懒加载
   },
   {
     path: '/about',
     name: 'About',
-    component: () => import('../pages/About.vue') //路由懒加载
+    component: () => import('../pages/About/About.vue') //路由懒加载
   },
 
 ]
